@@ -97,7 +97,7 @@ class SkeletonLine extends StatelessWidget {
                       : style.width,
                   height: style.height,
                   decoration: BoxDecoration(
-                    color: Theme.of(context).backgroundColor,
+                    color: const Color.fromARGB(115, 44, 44, 44),
                     borderRadius: style.borderRadius,
                   ),
                 );
